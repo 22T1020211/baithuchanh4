@@ -1,0 +1,31 @@
+div {
+    min-height: 200px;
+    min-width: 200px;
+    background-color: red;
+    border: 1px solid black;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+.container .item {
+    flex-basis: 200px;
+    display: flex;
+    align-items: center ; /*truc chinh*/     
+}
+.container{
+    display: flex;
+    background: gray;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.container .item:nth-child(2n + 1) {
+    background-color: blue;
+}
+.container .item:nth-of-type(2) {
+    background-color: yellow;
+    color: #000;
+}
+.container .item:last-child {
+    background-color: blueviolet;
+}

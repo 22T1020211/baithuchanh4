@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.img1 {
+    width: 200px;
+    height: 80px;
+}
+.container ul {
+    display: flex;
+    list-style: none;
+}
+.ul1:hover {
+    cursor: pointer;
+    color: #d2e6d2;
+}
+.nav{
+    display: flex; 
+    padding: 10px;
+    justify-content: center; 
+}
+.img2 {
+    width: 100%;
+    height: 900px;
+}
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+.it{
+    display: flex;
+    min-width: 500px;
+}
+h2 {
+    height: 10px;
+    justify-content: start;
+}
+.headinggg {
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+}
+.img3 {
+    width: 298px;
+}
+.heading-class {
+    display: flex;
+    /* justify-content: center; */
+    background-color: yellow;
+    margin-top: 50px;
+}
+.item1, .item2, .item3, .item4 {
+    position: relative;
+}
+h3{
+    position: absolute; 
+    top: 120px;
+    left: 60px;
+}
+.item {
+    display: flex;
+    justify-content: center;
+}
+.ppp {
+    display: flex;
+    padding-bottom: 10px;
+}
+.pp {
+    min-width: 190px;
+}
+h2 {
+    display: flex;
+    justify-content: start;
+}
+.heading1, .heading2, .heading3 {
+    position: relative;
+}
+.heading h3 {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: #fbfdfb;
+}
+.heading-class-link1 {
+    padding-left: 195px;
+    padding-top: 15px;
+}
+.heading-class-link2 {
+    padding-left: 95px;
+}
+.heading-class-link3 {
+    padding-right: 180px ;
+}
